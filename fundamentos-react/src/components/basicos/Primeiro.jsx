@@ -5,7 +5,7 @@ export default function Primeiro() {
   return (
     <div>
       <h2>Primeiro componente em React.js</h2>
-      <p>{ msg }</p>
+      <p>{msg}</p>
     </div>
   );
 }
