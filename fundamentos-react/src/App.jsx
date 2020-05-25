@@ -11,6 +11,7 @@ import ListaAlunos from './components/repeticao/ListaAlunos';
 import DesafioRepeticao from './components/repeticao/DesafioRepeticao';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
+import DiretaPai from './components/comunicacao/DiretaPai';
 
 import './App.css';
 
@@ -19,7 +20,11 @@ export default () => (
     <h1>Fundamentos React</h1>
     <div className="Cards">
 
-      <Card titulo="#08 - Renderização condicional" color="#36bf43">
+    <Card titulo="#09 - Comunicação direta" color="#36bf43">
+        <DiretaPai />
+      </Card>
+
+      <Card titulo="#08 - Renderização condicional" color="#9c947e">
         <ParOuImpar numero={20} />
         <UsuarioInfo usuario={{nome: 'Alan'}}/>
         <UsuarioInfo/>
