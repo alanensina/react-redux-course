@@ -15,12 +15,19 @@ import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import Input from './components/formulario/Input';
 import Contador from './components/contador/Contador';
+import Megasena from './components/megasena/Megasena';
+
 import './App.css';
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      
+      <Card titulo="#13 - Desafio da Megasena" color="#77ba77">
+        <Megasena qtd={8}/>
+      </Card>
+      
       <Card titulo="#12 - Contador" color="#C47F70">
         <Contador numeroInicial={10} />
       </Card>
